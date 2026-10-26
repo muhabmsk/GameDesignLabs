@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 70412116}
   m_Layer: 0
   m_Name: Terrain Sliced (16x16)_5
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -633,7 +633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47497657b27d0ee40a25a789cfe3d8f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -1
+  speed: -3
   damage: 1
   sr: {fileID: 213121228}
 --- !u!212 &213121228
@@ -760,7 +760,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.729997, y: -0.1214723}
@@ -6567,11 +6567,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f35ead8d0ee526c4e9e862720c098e19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
+  health: 1
   lives: 3
-  flickerDuration: 5
+  flickerDuration: 0.1
   isImmune: 0
-  immunityDuration: 2
+  immunityDuration: 3
 --- !u!1 &2123865623
 GameObject:
   m_ObjectHideFlags: 0

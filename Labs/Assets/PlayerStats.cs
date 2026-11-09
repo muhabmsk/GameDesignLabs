@@ -7,6 +7,7 @@ public class PlayerStats : MonoBehaviour
 
     public int health;
     public int lives;   
+    public static int score=0;
    private float flickerTime = 0f;
    public float flickerDuration = 0.1f;
 
